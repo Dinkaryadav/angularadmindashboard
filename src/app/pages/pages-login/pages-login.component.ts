@@ -13,6 +13,6 @@ export class PagesLoginComponent implements OnInit {
   ngOnInit(): void {
   }
   ShowDashboard(): void{
-    this.router.navigate(['/']);
+    this.router.navigate(['/dashboard']);
   }
 }
